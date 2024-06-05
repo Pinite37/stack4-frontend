@@ -26,13 +26,6 @@ const TaskItem = ({ task, onEdit, onDelete } : { task: { id: number, name: strin
   );
 };
 
-
-// function MyInput({ title }: { title: string }) {
-//   return (
-//     <input type="text" placeholder={title} />
-//   );
-// }
-
 export default function MyApp() {
   const [tasks, setTasks] = useState([{ id: 1, name: "Aller manger", description: "Très Vite" }]);
   const [name, setName] = useState("");
